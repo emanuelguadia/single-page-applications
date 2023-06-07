@@ -1,0 +1,17 @@
+.Navbar{
+    display:flex;
+    height: 100%;
+    width: 100%;
+}
+.HomepageLink{
+    color: blue;
+    background-color: aliceblue;
+    width:20%;
+    height: 40%;
+    font-size: smaller;
+    font-weight: bold;
+}
+.LogoutBtn{
+    color: blueviolet;
+    font-weight: bold;
+}

@@ -1,0 +1,18 @@
+.Signup{
+
+}
+.formToSignUp{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 450px;
+    height:450px;
+    margin-left:30%;
+    background-color: aqua;
+}
+.formToSignUp>input ,.btn{
+
+    width: 50%;
+    margin-top:6%;
+    margin-left: 15%;
+}
