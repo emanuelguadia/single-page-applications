@@ -1,0 +1,26 @@
+.Layout {
+    padding:0;
+	height:100vh;
+    text-align: center;
+    box-sizing:border-box;
+    display:grid;
+    grid-template-columns:repeat(6,1fr);
+    grid-template-rows:15% 80% 5%;
+    /* overflow: auto; */
+}
+.Layout>header,main,footer{
+    
+    border: 1px solid black;
+}
+.Layout>header,footer{
+
+    grid-column:span 6;
+
+}
+.Layout>main{
+    grid-column:span 6;
+}
+/* .Layout>aside{
+    grid-column:span 1;
+} */
+

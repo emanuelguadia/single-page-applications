@@ -1,0 +1,29 @@
+.DeleteEmployee {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
+  background-color: aqua;
+}
+
+.DeleteEmployee > span {
+  text-align: center;
+}
+.DeleteEmployee > form {
+  text-align: center;
+  width: 270px;
+  height: 50vh;
+}
+.DeleteEmployee > form > input {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 0 10px 0;
+}
+.DeleteEmployee > form > button {
+  width: 50%;
+  margin: 0 0 2px 0;
+}
+.DeleteEmployee > h6 {
+  color: red;
+  text-align: center;
+}

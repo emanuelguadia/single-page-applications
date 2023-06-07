@@ -1,0 +1,40 @@
+.AddEmployee {
+	padding:0;
+    margin:0;
+    box-sizing: border-box;
+	height: 100%;
+	background-color: aqua;
+}
+
+.AddEmployee  > label {
+    text-align: center;
+    	
+}
+.AddEmployee form> span {
+    right: 230px;
+    position: absolute;
+    color: red;
+    text-align: center;
+    	
+}
+.AddEmployee  > form {
+    text-align: center;
+    width:270px;
+    height:50vh;
+	
+}
+.AddEmployee>form> input {
+    width:100%;
+    box-sizing: border-box;
+    margin: 0 0 10px 0;
+	
+}
+.AddEmployee >form > button {
+    width:50%;
+    margin: 0 0 2px 0;
+}
+.AddEmployee >form > h5 {
+    text-align: center; 
+}
+
+
